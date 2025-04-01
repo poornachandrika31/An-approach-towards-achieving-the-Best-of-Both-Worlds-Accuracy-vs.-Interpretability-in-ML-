@@ -11,7 +11,8 @@ A key focus of this project is to balance accuracy and interpretability to ident
 Datasets used:
 Wine Quality Dataset
 
-     Source: UCI Machine Learning Repository
+     Source: https://archive.ics.uci.edu/ml/datasets/Wine+Quality
+Description: This dataset contains physicochemical properties of red and white wine samples and their corresponding quality ratings.
 
 Target Variable: quality (integer scale 3-9)
 
@@ -31,20 +32,35 @@ Features are standardized for better model performance.
 
 💰 Adult Income Dataset
 
-    Source: UCI Machine Learning Repository
+    Source: https://archive.ics.uci.edu/ml/datasets/adult
+ Description: This dataset contains demographic and work-related attributes used to predict whether an individual's income exceeds $50K per year.
 
-    Target Variable: salary (<=50K or >50K)
+  Target Variable: salary (<=50K or >50K)
 
-    Features:
+   Features:
 
-        Categorical: workclass, education, marital-status, occupation, relationship, race, sex, native-country
+   Categorical: workclass, education, marital-status, occupation, relationship, race, sex, native-country
 
-        Numerical: age, fnlwgt, education-num, capital-gain, capital-loss, hours-per-week
+   Numerical: age, fnlwgt, education-num, capital-gain, capital-loss, hours-per-week
 
-    Preprocessing Steps:
+ 🚀 Project Workflow
 
-        Missing values handled by removing rows with missing entries.
+I. Data Preprocessing Steps:
 
-        Label Encoding applied to categorical features.
+   1. Missing values handled by removing rows with missing entries.
+   2. Label Encoding applied to categorical features.
+   3. Feature scaling applied to numerical variables.
+      
+II.  Model Training and Evaluation
 
-        Feature scaling applied to numerical variables.
+We implement multiple machine learning models for both datasets:
+
+| **Model**                  | **Type**                 | **Interpretability** |
+|----------------------------|-------------------------|----------------------|
+| Logistic Regression        | Linear Model           | High                |
+| K-Nearest Neighbors (KNN)  | Instance-based Learning | Low                 |
+| Support Vector Classifier (SVC) | Kernel-based Model    | Low                 |
+| Decision Tree             | Tree-based Model        | High                |
+| Random Forest             | Ensemble Learning       | Medium              |
+| XGBoost                   | Boosted Trees          | Low                 |
+| Gaussian Naïve Bayes       | Probabilistic Model    | High                |
