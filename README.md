@@ -51,7 +51,7 @@ I. Data Preprocessing Steps:
    2. Label Encoding applied to categorical features.
    3. Feature scaling applied to numerical variables.
       
-II.  Model Training and Evaluation
+II.  Model Training and Evaluation:
 
 We implement multiple machine learning models for both datasets:
 
@@ -64,3 +64,10 @@ We implement multiple machine learning models for both datasets:
 | Random Forest             | Ensemble Learning       | Medium              |
 | XGBoost                   | Boosted Trees          | Low                 |
 | Gaussian Naïve Bayes       | Probabilistic Model    | High                |
+
+Performance Metrics:
+1. Classification Accuracy
+2. Precision, Recall, F1-score
+3. Confusion Matrix for error analysis.
+
+III. Pareto-Optimal Tradeoff Analysis
