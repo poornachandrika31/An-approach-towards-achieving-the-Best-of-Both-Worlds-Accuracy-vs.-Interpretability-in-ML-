@@ -1,4 +1,4 @@
-# Achieving-the-Best-of-Both-Worlds-Accuracy-vs.-Interpretability-in-ML-
+# An approach towards achieving-the-Best-of-Both-Worlds-Accuracy-vs.-Interpretability-in-ML-
 Project Overview
 This project explores machine learning-based classification for two datasets:
 
