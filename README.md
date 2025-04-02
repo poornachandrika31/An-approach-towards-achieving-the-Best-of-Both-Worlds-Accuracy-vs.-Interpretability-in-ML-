@@ -11,7 +11,7 @@ A key focus of this project is to balance accuracy and interpretability to ident
 Datasets used:
 Wine Quality Dataset
 
-     https://archive.ics.uci.edu/ml/datasets/Wine+Quality
+     https://www.kaggle.com/datasets/yasserh/wine-quality-dataset
 Description: This dataset contains physicochemical properties of red and white wine samples and their corresponding quality ratings.
 
 Target Variable: quality (integer scale 3-9)
@@ -32,7 +32,7 @@ Features are standardized for better model performance.
 
 💰 Adult Income Dataset
 
-    https://archive.ics.uci.edu/ml/datasets/adult
+    https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
  Description: This dataset contains demographic and work-related attributes used to predict whether an individual's income exceeds $50K per year.
 
   Target Variable: salary (<=50K or >50K)
